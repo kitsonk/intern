@@ -1,9 +1,20 @@
 define([
 	'require',
 	'dojo/Deferred',
+	'./lib/args',
 	'./lib/util'
-], function (require, Deferred, util) {
+], function (require, Deferred, args, util) {
 	return {
+		/**
+		 * The arguments received from the environment for the current test run.
+		 */
+		args: args,
+
+		/**
+		 * The configuration data in use for the current test run.
+		 */
+		config: null,
+
 		/**
 		 * Maximum number of suites to run concurrently. Currently used only by the server-side runner.
 		 */

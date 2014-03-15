@@ -1,7 +1,9 @@
 define([
+	'./main',
 	'./order',
 	'./lib/Suite',
 	'./lib/Test',
+	'./lib/args',
 	'./lib/BenchmarkSuite',
 	'./lib/reporterManager',
 	'./lib/interfaces/tdd',
