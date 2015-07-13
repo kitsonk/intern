@@ -9,7 +9,7 @@
 	},
 	"license": "BSD-3-Clause",
 	"dependencies": {
-		"istanbul": "gotwarlost/istanbul#db701e170ba4cb11af3bac09411296cdb0e8215a",
+		"istanbul": "bryanforbes/istanbul#eed3ffe32cad031091944178ab151b337e7c5856",
 		"source-map": "0.1.33",
 		"dojo": "2.0.0-alpha.6",
 		"chai": "3.0.0",
