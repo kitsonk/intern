@@ -9,7 +9,7 @@
 	},
 	"license": "BSD-3-Clause",
 	"dependencies": {
-		"istanbul": "bryanforbes/istanbul#eed3ffe32cad031091944178ab151b337e7c5856",
+		"istanbul": "kitsonk/istanbul#source-map-fixes",
 		"source-map": "0.1.33",
 		"dojo": "2.0.0-alpha.6",
 		"chai": "3.0.0",
